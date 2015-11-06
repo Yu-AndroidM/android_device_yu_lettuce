@@ -63,8 +63,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13042155008
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
-BOARD_SEPOLICY_DIRS += \
-    device/yu/lettuce/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    device/yu/lettuce/sepolicy
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
